@@ -16,14 +16,32 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>Currently a fullstack developer intern at LuDay AB</p>
-            <p>Hands-on experience in frontend development and implementing CI/CD pipelines to streamline deployment processes</p>
+            <p>Currently a Junior Java Developer at Portebel Health</p>
+            <p>Hands-on experience in test automation, full-stack development and infosecurity</p>
           </div>
           <div className="about-skills">
-            <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}}/></div>
-            <div className="about-skill"><p>Javascript</p><hr style={{width:"90%"}}/></div>
-            <div className="about-skill"><p>Next JS</p><hr style={{width:"70%"}}/></div>
-            <div className="about-skill"><p>Python</p><hr style={{width:"90%"}}/></div>
+            <h3>Tech Stack</h3>
+            <div className="tech-category">
+              <h4>Frontend</h4>
+              <p>React.js · Next.js · Angular · JavaScript/TypeScript</p>
+            </div>
+            <div className="tech-category">
+              <h4>Backend</h4>
+              <p>Node.js · Python · Java</p>
+            </div>
+            <div className="tech-category">
+              <h4>Databases</h4>
+              <p>PostgreSQL · MySQL</p>
+            </div>
+            <div className="tech-category">
+              <h4>Testing & QA</h4>
+              <p>Jest · Playwright · Postman · Pytest</p>
+            </div>
+            <div className="tech-category">
+              <h4>DevOps & Security</h4>
+              <p>Docker · Azure · Bitbucket CI/CD · Nmap · Burp Suite</p>
+            </div>
+            {/* <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}}/></div> */}
           </div>
         </div>
       </div>
@@ -34,7 +52,7 @@ const About = () => {
         </div>
         <hr />
         <div className="about-achievement">
-          <h1>5</h1>
+          <h1>4</h1>
           <p>PROJECT COMPLETED</p>
         </div>
       </div>

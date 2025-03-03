@@ -38,21 +38,21 @@ const Contact = () => {
       </div>
       <div className="contact-section">
         <div className="contact-left">
-          <h1>Let's talk</h1>
-          <p>I'm currently available to take on new projects, so...You can contact anytime. </p>
+          <h1>Let's Connect</h1>
+          <p>I'm ready to apply my Master's in Information Security and full-stack development experience to shift into test automation, where I can help build secure, high-quality software. </p>
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" /> <p>yongjiehao18@outlook.com</p>
             </div>
             <div className="contact-detail">
-              <img src={location_icon} alt="" /> <p>+46793570625</p>
+              <img src={location_icon} alt="" /> <p>Sweden</p>
             </div>
             <div className="contact-detail">
-              <img src={call_icon} alt="" /> <p>Stockholm, Sweden</p>
+              <img src={call_icon} alt="" /> <p>+46793570625</p>
             </div>
           </div>
         </div>
-        <form onSubmit={onSubmit} className="contact-right">
+        {/* <form onSubmit={onSubmit} className="contact-right">
           <label htmlFor="">Your Name</label>
           <input type="text" placeholder='Enter your name' name='name' />
           <label htmlFor="">Your Email</label>
@@ -60,7 +60,7 @@ const Contact = () => {
           <label htmlFor="">Write your message here</label>
           <textarea name="message" rows="8" placeholder='Enter your message' />
           <button type='submit' className="contact-submit">Submit now</button>
-        </form>
+        </form> */}
       </div>
     </div>
   )

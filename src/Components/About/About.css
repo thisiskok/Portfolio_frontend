@@ -32,25 +32,37 @@
 .about-right{
   display:flex;
   flex-direction: column;
-  gap:80px;
+  gap:30px;
 }
 
 .about-para{
   display:flex;
   flex-direction: column;
-  gap:20px;
-  font-size: 24px;
+  gap:8px;
+  font-size: 22px;
   font-weight: 500;
 }
 
 .about-skills{
   display:flex;
   flex-direction: column;
-  gap:20px;
+  gap:8px;
 }
-.about-skill{
+.tech-category {
+  margin-bottom: 15px;
+}
+.tech-category h4 {
+  font-size: 18px;
+  color: #ff8c00; 
+}
+
+.tech-category p {
+  font-size: 15px;
+  color: #ddd;
+}
+/* .about-skill{
   display:flex;
-  gap:50px;
+  gap:90px;
   align-items: center;
   transition:0.3s;
 }
@@ -66,7 +78,7 @@
   height:8px;
   border-radius: 50px;
   background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
-}
+} */
 
 .about-achievements{
   display:flex;

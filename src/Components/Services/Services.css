@@ -35,8 +35,8 @@
 .services_container{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr; /*3 as a row */
-  gap:40px;
-  margin-bottom: 80px;
+  gap:20px;
+  margin-bottom: 50px;
 }
 .services-format h3{
   font-size:28px;
@@ -53,15 +53,15 @@
 .services-format p{
   color:#d4d4d4;
   font-size:24px;
-  line-height:40px;
-  max-width:300px;
+  line-height:30px;
+  max-width:500px;
 }
-{/*.services-readmore{
+/*.services-readmore{
   display:flex;
   gap:20px;
   align-items: center;
   margin-top:20px;
-}*/}
+}*/
 
 .services-format:hover{
   border:2px solid #ff00ff;
@@ -85,7 +85,7 @@
   }
   .services-format{
     gap:20px;
-    padding:32px;
+    padding:20px;
   }
   .services-format h2{
     font-size:28px;
@@ -93,7 +93,7 @@
   .services-format p{
     font-size:18px;
     line-height: 32px;
-    max-width:300px;
+    max-width:400px;
   }
   .services-readmore img{
     width:20px;
